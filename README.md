@@ -24,3 +24,16 @@ Este projeto é uma API de usuários desenvolvida em Java usando Spring Boot. O 
 1. **Clone o repositório:**
 2. **mvn clean install**
 3. **mvn spring-boot:run**
+
+### Exemplo de requisição
+
+Post - http://localhost:8080/users
+
+{
+    "name": "Fernando souza",
+    "email": "fernando@gmail.com",
+    "department": {
+        "id": 1
+    }
+   
+}
