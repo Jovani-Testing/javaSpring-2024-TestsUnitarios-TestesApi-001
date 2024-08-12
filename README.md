@@ -1,6 +1,7 @@
-# javaspring-2024-TestsUnitarios-TestesApi
+# javaSpring-2024/001-TestsUnitarios-TestesApi
 
 Este projeto é uma API de usuários desenvolvida em Java usando Spring Boot. O foco principal é a implementação de testes unitários e de API para garantir a qualidade do código.
+Validações realizadas no controller - No próximo projeto  javaSpring-2024/002-TestsUnitarios-TestesApi faremos as validações de regras de negócio no service.
 
 ## Tecnologias Utilizadas
 
