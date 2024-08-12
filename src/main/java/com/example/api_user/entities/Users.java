@@ -1,6 +1,5 @@
 package com.example.api_user.entities;
 
-
 import jakarta.persistence.*;
 
 @Entity
@@ -17,9 +16,19 @@ public class Users {
     @JoinColumn(name = "department_id")
     private Department department;
 
+    // Construtor padrão
     public Users() {
     }
 
+    // Construtor com parâmetros
+    public Users(Long id, String nome, String email, Department department) {
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+        this.department = department;
+    }
+
+    // Getters e setters
     public Long getId() {
         return id;
     }
